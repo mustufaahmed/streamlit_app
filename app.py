@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+
 def main():
     st.title("Air Passengers Analysis")
     data = pd.read_csv("https://github.com/mustufaahmed/streamlit_app/blob/main/AirPassengers.csv")
