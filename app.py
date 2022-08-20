@@ -9,7 +9,7 @@ def main():
     button  =  st.button('Show Results')
 
     if button:
-        subset = sata[ data['Year'] == year ]
+        subset = data[data['Year'] == year ]
         st.table(subset)
 
 if __name__== '__main__':
